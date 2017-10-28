@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:background="@drawable/firewatch_home"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.truccongle.projecttestiq.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/test_iq"
+        android:background="@drawable/nen_bang"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logo_splash"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        app:srcCompat="@drawable/logo_cu"
+        android:id="@+id/logo_splash"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="@string/info_iq"
+            android:drawableBottom="@drawable/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnInfo" />
+
+        <Button
+            android:text="@string/high_score"
+            android:drawableBottom="@drawable/leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHighScore" />
+
+        <Button
+            android:text="@string/start"
+            android:drawableBottom="@drawable/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnStart" />
+
+        <Button
+            android:text="@string/about"
+            android:drawableBottom="@drawable/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAbout" />
+
+        <Button
+            android:text="@string/setting"
+            android:drawableBottom="@drawable/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSet" />
+
+        <Button
+            android:text="@string/exit"
+            android:drawableBottom="@drawable/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExit" />
+
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_age"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/firewatch_home"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.truccongle.projecttestiq.AgeActivity">
+
+    <TextView
+        android:text="CHÚ Ý:MẶC ĐỊNH SẼ LÀ MỨC DỄ"
+        android:layout_width="match_parent"
+        android:textColor="#230202"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:text="Để bắt đầu Xin vui òng nhập vào tên của bạn"
+            android:textColor="#ae6666"
+            android:textSize="30dp"
+            android:maxLines="3"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:maxLength="16"
+            android:background="@color/bg_screen2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/editTen" />
+
+        <TextView
+            android:text="Nhập vào tuổi của bạn"
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF0000"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:inputType="number"
+            android:ems="10"
+            android:maxLength="2"
+            android:background="#FFF0"
+            android:layout_gravity="center"
+            android:textColor="#FFFF0000"
+            android:gravity="center"
+            android:id="@+id/editAge"
+            android:hint="Nhập vào Tuổi" />
+
+        <Button
+            android:text="Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnConfirm" />
+
+    </LinearLayout>
+</RelativeLayout>

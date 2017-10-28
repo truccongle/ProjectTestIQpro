@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/firewatch_home"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="31dp">
+
+        <TextView
+            android:text="10/35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/txtCauHoiSo" />
+
+        <TextView
+            android:text="12:30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txtCauHoiSo"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:id="@+id/txtTime" />
+
+        <TextView
+            android:text="Xin chào Name"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtName"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:text="Muc do"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMuc"
+            android:layout_toRightOf="@+id/txtCauHoiSo"
+            android:layout_toEndOf="@+id/txtCauHoiSo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_below="@+id/txtName"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_cu"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/nen_bang"
+        android:layout_height="34dp"
+        android:id="@+id/textView2"
+        android:text="@string/test_iq" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/nen_bang"
+        android:layout_height="match_parent"><![CDATA[
+
+        TextView
+        android:text="64444444444444444444444444444444444444444444444444444444"
+        android:layout_width="wrap_content"
+        android:gravity="fill"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btnA"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/txtA" />
+
+        ]]>
+
+        <Button
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnB"
+            android:layout_below="@+id/btnA"
+            android:layout_alignLeft="@+id/btnA"
+            android:layout_alignStart="@+id/btnA" />
+
+        TextView
+        android:text="87654345hgfdddddddddđ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtB"
+        android:layout_alignBaseline="@+id/btnB"
+        android:layout_alignBottom="@+id/btnB"
+        android:layout_alignLeft="@+id/txtA"
+        android:layout_alignStart="@+id/txtA" />
+
+        <Button
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:id="@+id/btnC"
+            android:layout_below="@+id/btnB"
+            android:layout_alignLeft="@+id/btnB"
+            android:layout_alignStart="@+id/btnB" /><![CDATA[
+
+        TextView
+        android:text="liuy9876547655555555555555555555555555555555555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtC"
+        android:layout_alignBaseline="@+id/btnC"
+        android:layout_alignBottom="@+id/btnC"
+        android:layout_alignLeft="@+id/txtB"
+        android:layout_alignStart="@+id/txtB" />
+
+        ]]>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/detective"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:id="@+id/ImgCauHoi" />
+
+        <TextView
+            android:text="Hãy chọn đáp án hợp lý nhất"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/btnA"
+            android:layout_alignStart="@+id/btnA"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView4" />
+
+        <Button
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnD"
+            android:layout_below="@+id/btnC"
+            android:layout_alignLeft="@+id/btnC"
+            android:layout_alignStart="@+id/btnC"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnA"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</LinearLayout>

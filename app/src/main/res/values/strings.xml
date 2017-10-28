@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Test IQ</string>
+    <string name="test_iq">TEST IQ</string>
+
+    <string name="start">Start</string>
+    <string name="high_score">High Score</string>
+    <string name="info_iq">What is IQ?</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Tiếp theo</string>
+    <string name="skip">Bỏ qua</string>
+
+    <string name="slide_1_title">Chào mừng các bạn!</string>
+    <string name="slide_1_desc">Đến với ứng dụng kiểm tra trí thông minh!</string>
+
+    <string name="slide_2_title">Sử dụng dễ dàng</string>
+    <string name="slide_2_desc">Việc sử dụng ứng dụng chưa bao giờ dễ dàng hơn thế!</string>
+
+    <string name="slide_3_title">Kết quả chính xác</string>
+    <string name="slide_3_desc">Ứng dụng trả về kết quả nhanh và chính xác nhất!</string>
+
+    <string name="slide_4_title">Hãy tận hưởng nó</string>
+    <string name="slide_4_desc">Đừng bỏ lỡ những gì bạn sắp có!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <string name="item_your_iq">Your IQ is </string>
+</resources>
